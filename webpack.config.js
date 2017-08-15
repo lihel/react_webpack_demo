@@ -7,6 +7,7 @@ module.exports = {
         path: __dirname,   //表示使用绝对路径
         filename: "bundle.js" //输出文件名
     },
+    watch: true,
     module: {
         loaders: [            //用于加载一些静态文件夹（css样式，图片之类）
             { test: /\.css$/, loader: "style!css" },
