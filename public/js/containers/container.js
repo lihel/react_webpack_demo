@@ -5,6 +5,7 @@ import App from '../components/App';
 import { bindActionCreators } from 'redux';
 import {connect} from 'react-redux';
 
+//action
 function changeText(){
     return {
         type:'CHANGE_TEXT'
